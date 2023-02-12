@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/dan/development/mlops/cd0581-building-a-reproducible-model-workflow-exercises/exercises/genre_classification/mlruns/0/90377530649b4c6c8c271fc59b5d0c1f/artifacts
+end_time: 1676213658191
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 90377530649b4c6c8c271fc59b5d0c1f
+run_uuid: 90377530649b4c6c8c271fc59b5d0c1f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676213629678
+status: 4
+tags: []
+user_id: dan
