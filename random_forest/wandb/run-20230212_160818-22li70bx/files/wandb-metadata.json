@@ -1,0 +1,35 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.16",
+    "heartbeatAt": "2023-02-12T15:08:19.551577",
+    "startedAt": "2023-02-12T15:08:18.369526",
+    "docker": null,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "data_train.csv:latest",
+        "--model_config",
+        "/Users/dan/development/mlops/cd0581-building-a-reproducible-model-workflow-exercises/exercises/genre_classification/outputs/2023-02-12/16-07-11/random_forest_config.yml",
+        "--export_artifact",
+        "model_export",
+        "--random_seed",
+        "42",
+        "--val_size",
+        "0.3",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/bifrost/genre_classification.git",
+        "commit": "47f316d7553e51655d0e11ea6c1f63045fa4d87a"
+    },
+    "email": "dra@debitoor.com",
+    "root": "/Users/dan/development/mlops/cd0581-building-a-reproducible-model-workflow-exercises/exercises/genre_classification",
+    "host": "SUMUP-C02ZNLXSMD6N",
+    "username": "dan",
+    "executable": "/Users/dan/opt/miniconda3/envs/mlflow-d36141abc623adb370e740e70abc48dc744c31e6/bin/python"
+}

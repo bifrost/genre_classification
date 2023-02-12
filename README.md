@@ -20,3 +20,7 @@ mlflow run . -P hydra_options="main.project_name='exercise_14' main.execute_step
 ```bash
 mlflow run . -P hydra_options="main.project_name='exercise_14'"
 ```
+
+```bash
+mlflow run . -P hydra_options="main.project_name='genre_classification_prod'"
+```
